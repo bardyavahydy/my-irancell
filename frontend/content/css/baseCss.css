@@ -1,13 +1,165 @@
 /* font face */
 
+@font-face {
+    font-family: Lalezar;
+    src: url('../font/Lalezar-Regular.ttf') format('truetype');
+}
 
+@font-face {
+  font-family: Vazir;
+  src: url('../font/Vazirmatn-Regular.ttf') format('truetype');
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('../font/Vazirmatn-Medium.ttf') format('truetype');
+  font-weight: normal;
+}
 
 /* css reset */
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
+/* variable */
+
+:root{
+    --white-50: #fff;
+    --white-100: #f6f6f6;
+    --white-200: #e7e7e7;
+
+    --gold-50: #fffcef;
+    --gold-400: #fdc816;
+
+    --gray-600: #707070;
+    --gray-650: #818181;
+    --gray-700: #626161;
+}
+
+/* custom reset css */
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body, *{
+    font: 1.6rem Vazir;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
 
 /* component */
 
 
 
 /* helper class */
+
+.vazir-fb{
+    font-family: Vazir;
+    font-weight: bold;
+}
+
+.vazir-fl{
+    font-family: Vazir;
+    font-weight: lighter;
+}
+
+.Lalezar-font{
+    font-family: Lalezar;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-justify-between-align-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexItems-centerVertical{
+    display: flex;
+    align-items: center;
+}
+
+.flexItems-centerHorizontal{
+    display: flex;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
