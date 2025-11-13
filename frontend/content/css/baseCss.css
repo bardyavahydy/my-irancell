@@ -102,6 +102,16 @@ li{
     list-style: none;
 }
 
+button{
+    cursor: pointer;
+}
+
+button, input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
 /* component */
 
 
@@ -118,7 +128,7 @@ li{
     font-weight: lighter;
 }
 
-.Lalezar-font{
+.lalezar-font{
     font-family: Lalezar;
 }
 
@@ -172,10 +182,26 @@ li{
     -o-border-radius: 50%;
 }
 
+.border-radius-5{
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
 .border-radius-25{
     border-radius: 2.5rem;
     -webkit-border-radius: 2.5rem;
     -moz-border-radius: 2.5rem;
     -ms-border-radius: 2.5rem;
     -o-border-radius: 2.5rem;
+}
+
+.border-radius-30{
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
 }
