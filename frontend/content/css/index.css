@@ -14,6 +14,7 @@ body{
 .left-side{
     padding: 2rem 0 2rem 2rem;
     width: 50rem;
+    height: 100%;
 }
 
 .profile-box{
@@ -43,4 +44,45 @@ row-gap: .5rem;
 
 .user-name, .user-number{
     color: var(--gray-650);
+}
+
+/* Sim Card Charge */
+
+.sim-card-charge-box{
+    background-color: var(--gold-50);
+    padding: 2rem;
+    margin-top: 2rem;
+    height: 100%;
+} 
+
+.sim-card-charge-title{
+    margin-top: 1rem;
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+.charge-progress{
+    /* background-color: var(--gold-50); */
+    width: 12rem;
+    height: 12rem;
+    margin: 2.5rem 0;
+}
+
+.progress-10{
+    background-image: -webkit-linear-gradient(90deg, #e4ebec 50%, transparent 50%), -webkit-linear-gradient(right, var(--gold-400) 50%, #e4ebec 50%);
+}
+
+.overlay{
+    width: 85%;
+    height: 85%;
+    margin: auto;
+    background-color: var(--gold-50);
+    color: #003aff;
+}
+
+.charge-btn{
+    background-color: var(--gold-400);
+    color: var(--white-50);
+    width: 15rem;
+    box-shadow: 0 0 .8rem var(--gold-400);
 }
