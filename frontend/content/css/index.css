@@ -119,11 +119,11 @@ row-gap: .5rem;
     top: 100%;
     width: 100%;
     padding: 2rem;
-    transform: translateY(-61rem);
-    -webkit-transform: translateY(-61rem);
-    -moz-transform: translateY(-61rem);
-    -ms-transform: translateY(-61rem);
-    -o-transform: translateY(-61rem);
+    transform: translateY(-658%);
+    -webkit-transform: translateY(-658%);
+    -moz-transform: translateY(-658%);
+    -ms-transform: translateY(-658%);
+    -o-transform: translateY(-658%);
 
     img{
         width: 5rem;
@@ -133,4 +133,63 @@ row-gap: .5rem;
     h1{
         font-size: 1.9rem;
     }
+}
+
+/* Center Section */
+
+.main{
+    width: 100%;
+    padding: 2rem 0;
+
+} 
+
+.main-title{
+    font-size: 2.6rem;
+} 
+
+.main-overlay{
+    overflow: hidden;
+    background: url(../imgs/bannerIndex.jpg) center/cover no-repeat;
+    position: relative;
+    isolation: isolate;
+    width: 100%;
+    height: 15rem;
+    margin-top: 2rem;
+    align-items: flex-end;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+
+    h1, button{
+        width: fit-content;
+    }
+
+    h1{
+        font-size: 2.4rem;
+        margin-left: 3rem;
+    }
+
+    button{
+        background-color: var(--gold-400);
+        font-size: 1.6rem;
+        margin: 2rem 0 2rem 3rem;
+        color: var(--white-50);
+        border-radius: .3rem;
+        -webkit-border-radius: .3rem;
+        -moz-border-radius: .3rem;
+        -ms-border-radius: .3rem;
+        -o-border-radius: .3rem;
+}
+    
+}
+
+.main-overlay::before{
+    content: "";
+    position: absolute;
+    background: linear-gradient(270deg, rgba(253, 200, 22, .4), rgba(255, 223, 114, .4));
+    z-index: -1;
+    width: 100%;
+    height: 100%;
 }
