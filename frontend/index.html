@@ -17,7 +17,7 @@
   <script src="./content/js/index.js" defer></script>
   <body>
     <aside class="left-aside">
-      <dv class="left-side flex flex-direction-column lalezar-font">
+      <div class="left-side flex flex-direction-column lalezar-font">
         <!-- Profile Box -->
         <div class="profile-box flexItems-centerVertical border-radius-25">
           <div class="profile-wrapper border-radius-50-percentage">
@@ -27,27 +27,57 @@
               class="user-profile"
             />
           </div>
-          
+
           <div class="profile-box-desc flex flex-direction-column">
-              <h1 class="user-name">بردیا وحیدی</h1>
-              <h5 class="user-number">۰۹۳۸۶۹۵۶۳۵۵</h5>
+            <h1 class="user-name">بردیا وحیدی</h1>
+            <h5 class="user-number">۰۹۳۸۶۹۵۶۳۵۵</h5>
           </div>
         </div>
         <!--  -->
 
         <!-- Sim Card Charge -->
         <div class="sim-card-charge-box border-radius-30">
-            <h1 class="sim-card-charge-title">شارژ باقی‌مانده سیمکارت</h1>
-            <div class="flexItems-centerVertical flex-direction-column">
-                <div class="charge-progress progress-10 border-radius-50-percentage">
-                    <div class="overlay border-radius-50-percentage center">۶۰۰۰هزار تومان</div>
-                </div>
-                <button class="charge-btn lalezar-font border-radius-5">سیمکارتت رو شارژ کن!</button>
+          <h1 class="sim-card-charge-title">شارژ باقی‌مانده سیمکارت</h1>
+          <div class="flexItems-centerVertical flex-direction-column">
+            <div
+              class="charge-progress progress-10 border-radius-50-percentage center"
+            >
+              <div class="overlay border-radius-50-percentage center">
+                ۶۰۰۰هزار تومان
+              </div>
             </div>
+            <button class="charge-btn lalezar-font border-radius-5">
+              سیمکارتت رو شارژ کن!
+            </button>
+          </div>
+
+          <!-- Active Services -->
+          <h1 class="service-title">خدمات فعال</h1>
+
+          <div class="active-service-box flexItems-centerVertical vazir-fb">
+            <span class="active-service-icon center border-radius-12">
+              <i class="fa-regular fa-envelope"></i>
+            </span>
+            <div class="active-service-box-desc">
+              <h4 class="">بسته پیامک هفته‌ای</h4>
+              <h6 class="">تا تاریخ شهریور ۱۴۰۱</h6>
+            </div>
+          </div>
+
+          <div class="active-service-box flexItems-centerVertical vazir-fb">
+            <span class="active-service-icon center border-radius-12">
+              <i class="fa-solid fa-wifi"></i>
+            </span>
+            <div class="active-service-box-desc">
+              <h4 class="">بسته اینترنت ماهانه</h4>
+              <h6 class="">تا تاریخ مهر ۱۴۰۱</h6>
+            </div>
+          </div>
+
+          <!--  -->
         </div>
         <!--  -->
-        
-      </dv>
+      </div>
     </aside>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.0/chart.min.js"></script>
   </body>
