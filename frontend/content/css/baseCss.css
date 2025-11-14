@@ -190,6 +190,14 @@ button, input{
     -o-border-radius: .5rem;
 }
 
+.border-radius-12{
+    border-radius: 1.2rem;
+    -webkit-border-radius: 1.2rem;
+    -moz-border-radius: 1.2rem;
+    -ms-border-radius: 1.2rem;
+    -o-border-radius: 1.2rem;
+}
+
 .border-radius-25{
     border-radius: 2.5rem;
     -webkit-border-radius: 2.5rem;
