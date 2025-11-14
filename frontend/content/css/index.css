@@ -62,7 +62,6 @@ row-gap: .5rem;
 }
 
 .charge-progress{
-    /* background-color: var(--gold-50); */
     width: 12rem;
     height: 12rem;
     margin: 2.5rem 0;
@@ -75,7 +74,6 @@ row-gap: .5rem;
 .overlay{
     width: 85%;
     height: 85%;
-    margin: auto;
     background-color: var(--gold-50);
     color: #003aff;
 }
@@ -85,4 +83,30 @@ row-gap: .5rem;
     color: var(--white-50);
     width: 15rem;
     box-shadow: 0 0 .8rem var(--gold-400);
+}
+
+/* Active Services */
+
+.service-title{
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.active-service-box{
+    color: var(--gray-600);
+    column-gap: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.active-service-icon{
+    background-color: rgba(253, 199, 23, .2);
+    color: var(--gold-400);
+    font-size: 2.2rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.active-service-box-desc{
+    line-height: 2.7rem;
 }
