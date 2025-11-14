@@ -110,3 +110,27 @@ row-gap: .5rem;
 .active-service-box-desc{
     line-height: 2.7rem;
 }
+
+/* download app box */
+
+.download-app-box{
+    background-color: var(--white-50);
+    position: relative;
+    top: 100%;
+    width: 100%;
+    padding: 2rem;
+    transform: translateY(-61rem);
+    -webkit-transform: translateY(-61rem);
+    -moz-transform: translateY(-61rem);
+    -ms-transform: translateY(-61rem);
+    -o-transform: translateY(-61rem);
+
+    img{
+        width: 5rem;
+        image-rendering: pixelated;
+    }
+
+    h1{
+        font-size: 1.9rem;
+    }
+}
