@@ -11,9 +11,12 @@ body{
 
 /* Profile Box */
 
+.left-side, .sidebar{
+    width: 32rem;
+}
+
 .left-side{
     padding: 2rem 0 2rem 2rem;
-    width: 50rem;
     height: 100%;
 }
 
@@ -250,3 +253,42 @@ row-gap: .5rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
 } 
+
+/* Right Side */
+
+.sidebar{
+    background-color: var(--white-50);
+    padding: 2rem 0;
+    height: 100%;
+} 
+
+.sidebar-brand{
+    margin-bottom: 3rem;
+
+    span{
+        background-color: var(--gold-400);
+        padding: .5rem 2rem;
+        margin-right: 1rem;
+        font-size: 1.9rem;
+    }
+}
+
+.search-group{
+    overflow: hidden;
+    width: 80%;
+    border: .2rem solid var(--white-200);
+    padding: 1rem 1.5rem;
+}
+
+.search-input::placeholder{
+    color: var(--white-200);
+}
+
+.search-input-icon{
+    color: var(--white-200);
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
