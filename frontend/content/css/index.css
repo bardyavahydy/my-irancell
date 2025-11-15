@@ -204,3 +204,49 @@ row-gap: .5rem;
         font-size: 2.1rem;
     }
 }
+
+/* Recommend Packet */
+
+.recommend-packets{
+    background-color: var(--white-50);
+    padding: 3rem;
+    margin-top: 2.5rem;
+} 
+
+.recommend-packets-title{
+    font-size: 2.1rem;
+} 
+
+.recommend-packets-table{
+    color: var(--gray-650);
+    margin-top: 2rem;
+    width: 100%;
+
+    tr{
+        text-align: center;
+    }
+
+    tr:not(:first-child){
+        border-top: .2rem solid var(--white-200);
+    }
+
+    th{
+        padding: 2rem;
+    }
+
+    td{
+        padding: 1rem;
+    }
+} 
+
+.buy-packet-btn{
+    background-color: var(--gold-400);
+    box-shadow: 0 0 1rem var(--gold-400);
+    color: var(--gold-50);
+    padding: .5rem 3rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+} 
