@@ -206,6 +206,14 @@ button, input{
     -o-border-radius: 1.5rem;
 }
 
+.border-radius-20{
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
 .border-radius-25{
     border-radius: 2.5rem;
     -webkit-border-radius: 2.5rem;
