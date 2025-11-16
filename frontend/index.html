@@ -95,7 +95,9 @@
     <!-- Center Section -->
     <main class="main">
       <h1 class="main-title lalezar-font">صفحه اصلی</h1>
-      <section class="main-overlay flex flex-direction-column justify-content-center border-radius-20">
+      <section
+        class="main-overlay flex flex-direction-column justify-content-center border-radius-20"
+      >
         <h1 class="lalezar-font">اینهمه بسته بی‌سابقست!</h1>
         <button>اینجا چه خبره!</button>
       </section>
@@ -105,10 +107,10 @@
         <h1 class="lalezar-font">نمودار میزان مصرف کل</h1>
 
         <canvas id="my-chart" height="100">
-          your browser does'nt support the canvas element. 
+          your browser does'nt support the canvas element.
         </canvas>
       </section>
-      
+
       <!-- Recommend Packet -->
       <section class="recommend-packets border-radius-20">
         <h1 class="recommend-packets-title">بسته‌های پیشنهادی مخصوص خود شما</h1>
@@ -168,6 +170,64 @@
             <i class="fa-solid fa-magnifying-glass"></i>
           </span>
         </div>
+        
+        <!-- Links -->
+        <ul class="sidebar-menu">
+          <li class="sidebar-menu-item flexItems-centerVertical active">
+            <span>
+              <i class="fa-solid fa-house"></i>
+            </span>
+            <a href="#">صفحه اصلی</a>
+          </li>
+
+          <li class="sidebar-menu-item-breaker">سرویس‌ها</li>
+          <li class="sidebar-menu-item flexItems-centerVertical">
+            <span>
+              <i class="fa-solid fa-chart-pie"></i>
+            </span>
+            <a href="#">اینترنت</a>
+          </li>
+          <li class="sidebar-menu-item flexItems-centerVertical">
+            <span>
+              <i class="fa-solid fa-chart-column"></i>
+            </span>
+            <a href="#">کارکرد و فروش</a>
+          </li>
+          <li class="sidebar-menu-item flexItems-centerVertical">
+            <span>
+              <i class="fa-solid fa-bell"></i>
+            </span>
+            <a href="#">خدمات</a>
+          </li>
+
+          <li class="sidebar-menu-item-breaker">مدیریت</li>
+          <li class="sidebar-menu-item flexItems-centerVertical">
+            <span>
+              <i class="fa-solid fa-bell"></i>
+            </span>
+            <a href="#">مدیریت خدمات</a>
+          </li>
+          <li class="sidebar-menu-item flexItems-centerVertical">
+            <span>
+              <i class="fa-solid fa-bell"></i>
+            </span>
+            <a href="#">مدیریت سیمکارت</a>
+          </li>
+
+          <li class="sidebar-menu-item flexItems-centerVertical space-top">
+            <span>
+              <i class="fa-solid fa-bell"></i>
+            </span>
+            <a href="#">سوالات متداول</a>
+          </li>
+          <li class="sidebar-menu-item flexItems-centerVertical">
+            <span>
+              <i class="fa-solid fa-bell"></i>
+            </span>
+            <a href="#">ارتباط با ما</a>
+          </li>
+
+        </ul>
       </div>
     </aside>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
