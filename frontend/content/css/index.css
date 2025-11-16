@@ -292,3 +292,58 @@ row-gap: .5rem;
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
 }
+
+/* Links */
+
+.sidebar-menu{
+    width: 100%;
+    margin-top: 4rem;
+    padding-right: 3.5rem;
+}
+
+.sidebar-menu-item{
+    position: relative;
+    color: var(--gray-650);
+    font-size: 1.9rem;
+    column-gap: 1rem;
+}
+
+.sidebar-menu-item:not(:first-child, :last-child){
+    margin-bottom: 1.8rem;
+}
+
+.sidebar-menu-item.active{
+    color: var(--gray-700);
+
+    span{
+        color: var(--gold-400);
+    }
+}
+
+.sidebar-menu-item.active::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: .3rem;
+    height: 100%;
+    background-color: var(--gold-400);
+}
+
+.sidebar-menu-item-breaker{
+    color: var(--white-200);
+    font-size: 1.3rem;
+    margin: 2.7rem 0 1.4rem 0;
+}
+
+.sidebar-menu-item.space-top{
+    margin-top: 5rem;
+}
+
+.sidebar-menu-item a{
+    color: var(--gray-650);
+}
+
+.sidebar-menu-item.active a{
+    color: black;
+}
